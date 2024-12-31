@@ -1,0 +1,18 @@
+# web server
+server:
+  port: 9080
+  servlet:
+    context-path: /myapp
+
+# spring
+spring:
+  application:
+    name: hello-druid
+
+# logging
+logging:
+  level:
+    root: INFO
+    org:
+      springframework: INFO
+
