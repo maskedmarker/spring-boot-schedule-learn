@@ -137,3 +137,9 @@ public class ScheduledAnnotationBeanPostProcessor implements MergedBeanDefinitio
     }
 }
 ```
+
+ScheduledTaskRegistrar
+```text
+Helper bean for registering tasks with a TaskScheduler, typically using cron expressions.
+As of Spring 3.1, ScheduledTaskRegistrar has a more prominent user-facing role when used in conjunction with the @EnableAsync annotation and its SchedulingConfigurer callback interface.
+```
